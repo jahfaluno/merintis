@@ -1,0 +1,842 @@
+/* google fonts
+	============================================================================================ */
+    @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700");
+    @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+
+    /* global style start
+        ============================================================================================ */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Roboto", sans-serif;
+      color: #3a3434;
+      font-weight: 400;
+      font-size: 15px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .let-space-08 {
+      letter-spacing: 0.8px;
+    }
+
+    /* ==================== TEXT STYLE ==================== */
+    .roboto-condensed {
+      font-family: "Roboto Condensed", sans-serif;
+      font-weight: 700;
+    }
+
+    .roboto {
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+    }
+
+    .text-gold {
+      color: #f9a932;
+    }
+
+    .text-green {
+      color: #4ab44f;
+      font-weight: 700;
+    }
+
+    .text-grey {
+      color: #888888;
+    }
+
+    .text-32 {
+      font-size: 32px;
+    }
+
+    .text-24 {
+      font-size: 24px;
+    }
+
+    .text-18 {
+      font-size: 18px;
+    }
+
+    .text-14 {
+      font-size: 14px;
+    }
+
+    .text-16 {
+      font-size: 16px;
+    }
+
+    .text-11 {
+      font-size: small;
+    }
+
+    .text-9 {
+      font-size: 9px;
+    }
+
+    .text-8 {
+      font-size: 8px;
+    }
+
+    h1 {
+      font-size: 56px;
+    }
+
+    h2 {
+      font-size: 48px;
+    }
+
+    h5 {
+      font-size: 24px;
+    }
+
+    label {
+        font-weight: 700;
+        color: #f9a932;
+        margin-top: 12px;
+    }
+
+    .h5-20 {
+      font-size: 20px;
+    }
+
+    @media (max-width: 991px) {
+      .h1 {
+        font-size: 46px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .h1 {
+        font-size: 32px;
+      }
+    }
+
+    .block {
+     display: block;
+    }
+    /* ==================== END TEXT STYLE ==================== */
+
+    /* ==================== CLASS STYLE ==================== */
+    .border-none {
+      border: 0;
+    }
+
+    .border-gold {
+      border: 1px solid #f9a932;
+      border-radius: 15px !important;
+    }
+
+    .border-gold-mis {
+      border: 3px solid #f9a932;
+      border-radius: 15px !important;
+      overflow: auto;
+    }
+
+    .bg-coffee {
+      background:linear-gradient(0deg, rgba(10, 41, 12, 0.7), rgba(10, 41, 12, 0.7)), url("../img/Picture27.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: left;
+    }
+
+    .bg-gold {
+      background-color: #f6ab2a;
+    }
+
+    .bg-dark-green {
+      background-color: #374738;
+    }
+
+    .bg-upcoming {
+      background-color: #defae0;
+    }
+
+    /* === LOADER */
+    .loader {
+      border: 2px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 2px solid #374738;
+      width: 20px;
+      height: 20px;
+      -webkit-animation: spin 2s linear infinite; /* Safari */
+      animation: spin 2s linear infinite;
+    }
+
+    /* Safari */
+    @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    /* === END LOADER */
+
+      /* === NAVBAR === */
+      .navbar-fixed {
+        background-color: #ffffff;
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+      }
+
+      .navbar-dark {
+        font-size: 15px !important;
+        font-weight: 500 !important;
+        padding: 0px;
+      }
+
+      @media (max-width: 575px) {
+        .navbar-dark {
+          box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+        }
+      }
+
+      .navbar-dark ul {
+        display: flex !important;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .navbar-dark .nav-item {
+        font-size: 17px;
+        font-weight: 500;
+        padding: 17px;
+      }
+
+      .active > .nav-link{
+        color: #ffffff !important;
+        background-color: #f6ab2a;
+        border-radius: 25px;
+      }
+
+      .nav-link {
+        color: #f6ab2a !important;
+        padding: 2px 10px !important;
+      }
+
+      .nav-link:hover {
+        color: #ffffff !important;
+        background-color: #f6ab2a;
+        border-radius: 25px;
+      }
+
+      /* NAVBAR TOGGLER */
+      @media (max-width: 991px) {
+        /* Main Menu Area css
+        ============================================================================================ */
+        .navbar-toggler {
+          border: none;
+          border-radius: 0px;
+          padding: 0px;
+          cursor: pointer;
+          margin-top: 27px;
+          margin-bottom: 23px;
+        }
+        .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
+          opacity: 1;
+        }
+        .navbar-toggler[aria-expanded="true"] span:nth-child(2) {
+          opacity: 0;
+        }
+        .navbar-toggler[aria-expanded="true"] span:first-child {
+          transform: rotate(-45deg);
+          position: relative;
+          top: 7.5px;
+        }
+        .navbar-toggler[aria-expanded="true"] span:last-child {
+          transform: rotate(45deg);
+          bottom: 6px;
+          position: relative;
+        }
+        .navbar-toggler span {
+          display: block;
+          width: 25px;
+          height: 3px;
+          background: #45b54b;
+          margin: auto;
+          margin-bottom: 4px;
+          transition: all 400ms linear;
+          cursor: pointer;
+        }
+      }
+        /* END NAVBAR TOGGLER */
+      /* === END NAVBAR ===*/
+
+    .menu-program > ul li {
+        list-style-type: none;
+        display: inline;
+        margin-right: 20px;
+        margin-left: 20px;
+        padding: 8px;
+        color: #888888;
+    }
+
+    .menu-program a:hover {
+      color: #000;
+    }
+
+    .link-none {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+
+    .menu-active {
+      border-bottom: 3px solid #4ab44f;
+      color: #000!important;
+    }
+
+    @media (max-width: 770px) {
+      .menu-program > ul li {
+        margin: 0;
+      }
+    }
+
+    @media (max-width: 685px) {
+      .menu-program > ul li {
+        display: block;
+      }
+
+      .menu-active {
+        border-bottom: none;
+        background-color: #4ab44f;
+      }
+
+      .menu-active a {
+        color: #fff !important;
+      }
+    }
+
+    .menu-program > ul {
+      /* background-color: coral; */
+      padding: 0;
+    }
+
+    .custom-card {
+      width: 210px;
+    }
+
+    .custom-card span {
+      position: absolute;
+      padding: 30px;
+      width: 100%;
+      top: 20%;
+      color: #000;
+      text-align: center;
+      visibility: hidden;
+    }
+
+    .custom-card:hover img,
+    .custom-card:active img {
+      opacity: 0.4;
+    }
+
+    .custom-card:hover span,
+    .custom-card:active span {
+      visibility: visible;
+    }
+
+    @media (max-width: 415px) {
+      .custom-card span {
+        top: 0;
+      }
+    }
+
+    /* ======= PROGRAM CARD STYLE */
+
+    .program-card {
+      max-width: 320px;
+    }
+
+    /* ======= END PROGRAM CARD STYLE */
+
+    .radius-12px {
+      border-radius: 18px;
+    }
+
+    .desc-program {
+      width: 50%;
+      float: left;
+    }
+
+    .img-program {
+      right: 0;
+      width: 50%;
+      float: right;
+    }
+
+    .d-768 {
+      display: none;
+    }
+    .d-block-big {
+      display: block;
+    }
+
+    @media (max-width: 768px) {
+      .d-768 {
+        display: block;
+        margin: auto;
+      }
+
+      .d-block-big {
+        display: none;
+      }
+
+      .desc-program {
+        display: block;
+        width: 100%;
+      }
+    }
+    /* ==================== END CLASS STYLE ==================== */
+
+    /* ==================== ID STYLE ==================== */
+    #data-program {
+      max-width: 900px;
+      display: block;
+      margin: auto;
+    }
+    /* ==================== END ID STYLE ==================== */
+
+    /* ==================== BUTTON =================== */
+    .btn-hijau {
+      border: 0px;
+      border-radius: 20px;
+      background-color: #45b54b;
+      color: #ffffff;
+      font-weight: 500;
+      padding: 8px 16px;
+    }
+
+    .btn-hijau:hover, .btn-hijau:active {
+      background-color: #30a136;
+    }
+
+    .btn-kuning {
+      border: 0px;
+      border-radius: 20px;
+      background-color: #f6ab2a;
+      color: #ffffff;
+      font-family: "Roboto Condensed", sans-serif;
+      font-weight: 700;
+      width: 150px;
+      padding: 8px 10px;
+      letter-spacing: 1.5px;
+    }
+
+    .btn-kuning:hover, .btn-kuning:active {
+       background-color: #e6a029;
+    }
+
+    .list-button-program {
+      padding-left: 0;
+    }
+
+    .list-button-program li {
+      display: inline;
+      list-style-type: none;
+    }
+
+    /* ==================== END BUTTON =================== */
+
+    /* ==================== IMAGE CSS =================== */
+    .img-295 {
+      max-height: 295px;
+    }
+
+    .img-180 {
+      max-height: 180px;
+    }
+
+    @media (max-width: 765px) {
+      .custom-card {
+        width: 160px;
+      }
+
+      .img-180 {
+        max-height: 136px;
+       }
+    }
+
+    @media (max-width: 575px) {
+      .card {
+        margin: 5px;
+      }
+
+
+    }
+
+    @media (max-width: 450px) {
+      .img-180 {
+       max-height: 140px;
+      }
+
+      .card-body {
+        padding: 0;
+      }
+
+      .card {
+        margin: 5px;
+      }
+    }
+
+    @media (max-width: 370px) {
+      .card-body {
+        padding: 0;
+      }
+
+      .card {
+        margin: 2px;
+      }
+    }
+
+    @media (max-width: 328px) {
+      .img-295 {
+        max-height: 200px;
+      }
+    }
+
+    .img-100 {
+      max-height: 100px;
+    }
+
+    .img-50 {
+      max-height: 50px;
+    }
+
+    .img-25 {
+      max-height: 25px;
+    }
+    /* ==================== END IMAGE CSS =================== */
+
+    /* ==================== MARGIN CSS =================== */
+    .mt-32 {
+      margin-top: 32px;
+    }
+
+    .mt-48 {
+      margin-top: 48px;
+    }
+
+    .mt-120 {
+      margin-top: 120px;
+    }
+    /* ==================== END MARGIN CSS =================== */
+
+    /* ==================== PADDING CSS =================== */
+    .px-48 {
+      padding: 0px 48px;
+    }
+    /* ==================== END PADDING CSS =================== */
+
+    /* ================ DARI STYLES CSS ========================== */
+
+    .search-wrapper {
+      background: #f8f8ff;
+      padding: 30px 10px;
+      text-align: center;
+    }
+
+    @media (min-width: 600px) {
+      .search-wrapper {
+        padding: 60px;
+      }
+    }
+
+    .search-wrapper h3 {
+      font-size: 25px;
+      margin-bottom: 25px;
+    }
+
+    @media (min-width: 600px) {
+      .search-wrapper h3 {
+        margin-bottom: 50px;
+      }
+    }
+
+    .block-kembali {
+      width: 100%;
+      display: block;
+      clear: both;
+      padding: 15px;
+    }
+
+    .block-kembali a {
+      font-size: 16px;
+      color: #888888;
+    }
+
+    .block-kembali a:hover {
+      color: #000;
+    }
+
+    /* ============ FORM STYLE BARU======= */
+    .custom-form .form-group {
+      margin-bottom: 20px;
+    }
+
+    .custom-form .nice-select {
+      width: 100%;
+      height: 50px;
+      line-height: 50px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 20px;
+      font-size: 14px;
+      color: #999999;
+    }
+
+    .custom-form .nice-select:after {
+      right: 25px;
+    }
+
+    .custom-form .form-control {
+      font-size: 14px;
+      color: #999999;
+      padding-left: 20px;
+      border: 1;
+      height: 50px;
+      border-radius: 0;
+    }
+
+    .custom-form .password {
+      font-size: 14px;
+      color: #999999;
+      padding-left: 20px;
+      border: 0;
+      height: 50px;
+      border-radius: 0;
+    }
+
+    .custom-form .form-control::placeholder {
+      color: #999999;
+    }
+
+    .custom-form .form-control:focus {
+      outline: 0;
+      box-shadow: none;
+    }
+
+    .custom-form .input-group-append .input-group-text {
+      border: 0;
+      padding-right: 20px;
+      border-radius: 0;
+      background: #fff;
+    }
+
+    .custom-form .input-group-append i, .search-form .input-group-append span {
+      font-size: 14px;
+      color: #999999;
+    }
+
+    .custom-form::placeholder {
+      color: #999999;
+    }
+    /* ============ END FORM STYLE BARU======= */
+
+    .lay-password-outline {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      border: 1px solid #babab6;
+    }
+
+    .lay-password-outline > a {
+      margin-right: 8px;
+      text-decoration: none;
+      color: #babab6;
+    }
+
+    .password-invalid {
+      border-color: #d63a22;
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+    button:disabled,
+    button[disabled]{
+      border: 1px solid #999999;
+      background-color: #cccccc;
+      color: #666666;
+    }
+
+    button[disabled]:hover{
+      border: 1px solid #999999;
+      background-color: #cccccc;
+      color: #666666;
+    }
+
+    .button-kuning {
+      display: inline-block;
+      background-color: #f9aa32;
+      color: #fff;
+      border-radius: 30px;
+      padding: 8px 25px;
+      text-transform: capitalize;
+      -webkit-transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
+    }
+
+    @media (min-width: 600px) {
+      .button-kuning {
+        padding: 12px 45px;
+      }
+    }
+
+    .button-kuning:hover {
+      background-color: #f2a633;
+      color: #fff;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #45b54b;
+      color: #fff;
+      border-radius: 30px;
+      padding: 8px 25px;
+      text-transform: capitalize;
+      -webkit-transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
+    }
+
+    @media (min-width: 600px) {
+      .button {
+        padding: 12px 45px;
+      }
+    }
+
+    .button:hover {
+      background-color: #3c8f40;
+      color: #fff;
+    }
+
+    /* ================================= CURSOR */
+    .not-allowed {
+      cursor: not-allowed! important;
+    }
+
+    .wait {
+      cursor: wait;
+    }
+    /* ================================= END CURSOR */
+
+    .fixed-alert {
+      z-index: 99;
+      position: fixed;
+      right: -100px;
+      top: 155px;
+    }
+
+    .line-normal {
+      line-height: 80%;
+    }
+  /* ================ END DARI STYLES CSS ========================== */
+
+  /* =========== DAFTAR MISTALK STYLE ========== */
+  .wrap_form_aside {
+    right: 0;
+    width: 35%;
+    float: right;
+  }
+
+  .wrap_form_daftar {
+    width: 65%;
+    float: left;
+  }
+
+  @media (max-width: 991px) {
+    .wrap_form_aside {
+      width: 100%;
+      float: none;
+    }
+
+    .wrap_form_daftar {
+      width: 100%;
+      float: none;
+    }
+  }
+
+  .border-grey {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 15px;
+    overflow: auto;
+  }
+
+  .img-100 {
+    max-width: 100px;
+  }
+
+  label {
+    color: #7c7c7c;
+    font-family: "Roboto";
+    font-weight: normal;
+    margin: auto;
+  }
+
+  .desc-program-mis {
+    width: 50%;
+    float: left;
+  }
+
+  .clear-both {
+    clear: both;
+  }
+
+  .btn-daftar {
+    background-color: #f9a932;
+    padding: 8px 30px;
+    color: #ffffff;
+    border-radius: 3px;
+    border: 0;
+    letter-spacing: 0.8px;
+  }
+
+  .btn-daftar:hover, .btn-daftar:active {
+    background-color: #e6a029;
+ }
+
+ .custom-err {
+  color: #e33e32;
+  font-size: small;
+}
+  /* =========== END DAFTAR MISTALK STYLE ========== */
+
+  /* =========== DAFTAR COACHING CLINIC STYLE ======== */
+  .wrap_form_aside_cclinic {
+    right: 0;
+    width: 50%;
+    float: right;
+  }
+
+  .wrap_form_daftar_cclinic {
+    width: 50%;
+    float: left;
+  }
+
+  @media (max-width: 991px) {
+    .wrap_form_aside_cclinic {
+      width: 100%;
+      float: none;
+    }
+
+    .wrap_form_daftar_cclinic {
+      width: 100%;
+      float: none;
+    }
+  }
+  /* =========== END DAFTAR COACHING CLINIC STYLE ==== */

@@ -1,0 +1,91 @@
+[25-Jan-2021 14:50:47 UTC] PHP Warning:  require_once(/home/merintis/ci4_app/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:50:47 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/merintis/ci4_app/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:50:59 UTC] PHP Warning:  require_once(/home/merintis/ci4_app/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:50:59 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/merintis/ci4_app/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:50:59 UTC] PHP Warning:  require_once(/home/merintis/ci4_app/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:50:59 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/merintis/ci4_app/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:50:59 UTC] PHP Warning:  require_once(/home/merintis/ci4_app/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:50:59 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/merintis/ci4_app/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:51:00 UTC] PHP Warning:  require_once(/home/merintis/ci4_app/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:51:00 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/merintis/ci4_app/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:51:02 UTC] PHP Warning:  require_once(/home/merintis/ci4_app/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:51:02 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/merintis/ci4_app/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:51:03 UTC] PHP Warning:  require_once(/home/merintis/ci4_app/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:51:03 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/merintis/ci4_app/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:51:05 UTC] PHP Warning:  require_once(/home/merintis/ci4_app/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:51:05 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/merintis/ci4_app/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:51:07 UTC] PHP Warning:  require_once(/home/merintis/ci4_app/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:51:07 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/merintis/ci4_app/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:51:09 UTC] PHP Warning:  require_once(/home/merintis/ci4_app/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:51:09 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/merintis/ci4_app/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:53:26 UTC] PHP Warning:  require_once(/home/merintis/ci4_app/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:53:26 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/merintis/ci4_app/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:53:26 UTC] PHP Warning:  require_once(/home/merintis/ci4_app/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:53:26 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/merintis/ci4_app/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:53:35 UTC] PHP Warning:  require_once(/home/merintis/ci4_app/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:53:35 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/merintis/ci4_app/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:54:48 UTC] PHP Warning:  require_once(/home/merintis/ci4_app/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:54:48 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/merintis/ci4_app/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:54:49 UTC] PHP Warning:  require_once(/home/merintis/ci4_app/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:54:49 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/merintis/ci4_app/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:58:28 UTC] PHP Warning:  require_once(/home/merintis/ci4_app/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:58:28 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/merintis/ci4_app/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:58:31 UTC] PHP Warning:  require_once(/home/merintis/ci4_app/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 14:58:31 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/merintis/ci4_app/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 15:01:13 UTC] PHP Warning:  require_once(/home/merintis/ci4_app/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 15:01:13 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/merintis/ci4_app/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 15:03:28 UTC] PHP Warning:  require_once(/home/merintis/ci4_app/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 15:03:28 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/merintis/ci4_app/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 15:03:30 UTC] PHP Warning:  require_once(/home/merintis/ci4_app/vendor/composer/autoload_real.php): failed to open stream: No such file or directory in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[25-Jan-2021 15:03:30 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/merintis/ci4_app/vendor/composer/autoload_real.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/merintis/ci4_app/vendor/autoload.php on line 5
+[30-Mar-2021 21:48:12 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home/merintis/larabackend/storage/framework/views/e98b0b7726e808b9c58636152229bef33e59a658.php): failed to open stream: No such file or directory in /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:135
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/merintis/...', 135, Array)
+#1 /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(135): file_put_contents('/home/merintis/...', '<?php $__env->s...', 0)
+#2 /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(150): Illuminate\Filesystem\Filesystem->put('/home/merintis/...', '<?php $__env->s...')
+#3 /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/merintis/...')
+#4 /home/merintis/public_html/vendor/fac in /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 135
+[30-Mar-2021 21:48:19 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home/merintis/larabackend/storage/framework/views/e98b0b7726e808b9c58636152229bef33e59a658.php): failed to open stream: No such file or directory in /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:135
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/merintis/...', 135, Array)
+#1 /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(135): file_put_contents('/home/merintis/...', '<?php $__env->s...', 0)
+#2 /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(150): Illuminate\Filesystem\Filesystem->put('/home/merintis/...', '<?php $__env->s...')
+#3 /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/merintis/...')
+#4 /home/merintis/public_html/vendor/fac in /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 135
+[30-Mar-2021 21:50:02 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home/merintis/larabackend/storage/framework/views/e98b0b7726e808b9c58636152229bef33e59a658.php): failed to open stream: No such file or directory in /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:135
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/merintis/...', 135, Array)
+#1 /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(135): file_put_contents('/home/merintis/...', '<?php $__env->s...', 0)
+#2 /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(150): Illuminate\Filesystem\Filesystem->put('/home/merintis/...', '<?php $__env->s...')
+#3 /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/merintis/...')
+#4 /home/merintis/public_html/vendor/fac in /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 135
+[30-Mar-2021 21:50:08 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home/merintis/larabackend/storage/framework/views/e98b0b7726e808b9c58636152229bef33e59a658.php): failed to open stream: No such file or directory in /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:135
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/merintis/...', 135, Array)
+#1 /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(135): file_put_contents('/home/merintis/...', '<?php $__env->s...', 0)
+#2 /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(150): Illuminate\Filesystem\Filesystem->put('/home/merintis/...', '<?php $__env->s...')
+#3 /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/merintis/...')
+#4 /home/merintis/public_html/vendor/fac in /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 135
+[30-Mar-2021 21:50:54 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home/merintis/larabackend/storage/framework/views/e98b0b7726e808b9c58636152229bef33e59a658.php): failed to open stream: No such file or directory in /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:135
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/merintis/...', 135, Array)
+#1 /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(135): file_put_contents('/home/merintis/...', '<?php $__env->s...', 0)
+#2 /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(150): Illuminate\Filesystem\Filesystem->put('/home/merintis/...', '<?php $__env->s...')
+#3 /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/merintis/...')
+#4 /home/merintis/public_html/vendor/fac in /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 135
+[30-Mar-2021 21:50:55 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home/merintis/larabackend/storage/framework/views/e98b0b7726e808b9c58636152229bef33e59a658.php): failed to open stream: No such file or directory in /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:135
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/merintis/...', 135, Array)
+#1 /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(135): file_put_contents('/home/merintis/...', '<?php $__env->s...', 0)
+#2 /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(150): Illuminate\Filesystem\Filesystem->put('/home/merintis/...', '<?php $__env->s...')
+#3 /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/merintis/...')
+#4 /home/merintis/public_html/vendor/fac in /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 135
+[30-Mar-2021 21:50:56 Asia/Jakarta] PHP Fatal error:  Uncaught ErrorException: file_put_contents(/home/merintis/larabackend/storage/framework/views/e98b0b7726e808b9c58636152229bef33e59a658.php): failed to open stream: No such file or directory in /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:135
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/merintis/...', 135, Array)
+#1 /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(135): file_put_contents('/home/merintis/...', '<?php $__env->s...', 0)
+#2 /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(150): Illuminate\Filesystem\Filesystem->put('/home/merintis/...', '<?php $__env->s...')
+#3 /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(51): Illuminate\View\Compilers\BladeCompiler->compile('/home/merintis/...')
+#4 /home/merintis/public_html/vendor/fac in /home/merintis/public_html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php on line 135
+[30-Mar-2021 17:05:54 UTC] PHP Warning:  require(/home/merintis/larabackend/public): failed to open stream: No such file or directory in /home/merintis/public_html/index.php on line 2
+[30-Mar-2021 17:05:54 UTC] PHP Fatal error:  require(): Failed opening required '/home/merintis/public_html/../larabackend/public' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/merintis/public_html/index.php on line 2

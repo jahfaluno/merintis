@@ -1,0 +1,15 @@
+.fixed-alert {
+    z-index: 99;
+    position: fixed;
+    right: -100px;
+    top: 124px;
+  }
+
+  .img-100 {
+    max-width: 100px;
+  }
+
+  .custom-err {
+    color: #e33e32;
+    font-size: small;
+  }

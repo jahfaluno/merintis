@@ -1,0 +1,573 @@
+/* google fonts
+	============================================================================================ */
+    @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700");
+    @import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+  
+    /* global style start
+        ============================================================================================ */
+    * {
+      box-sizing: border-box;
+    }
+  
+    body {
+      font-family: "Roboto", sans-serif;
+      color: #3a3434;
+      font-weight: 400;
+      font-size: 15px;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .let-space-08 {
+      letter-spacing: 0.8px;
+    }
+  
+    /* ==================== TEXT STYLE ==================== */
+    .roboto-condensed {
+      font-family: "Roboto Condensed", sans-serif;
+      font-weight: 700;
+    }
+  
+    .roboto {
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+    }
+  
+    .text-gold {
+      color: #f9a932;
+    }
+  
+    .text-green {
+      color: #4ab44f;
+      font-weight: 700;
+    }
+  
+    .text-grey {
+      color: #888888;
+    }
+  
+    .text-32 {
+      font-size: 32px;
+    }
+  
+    .text-24 {
+      font-size: 24px;
+    }
+  
+    .text-18 {
+      font-size: 18px;
+    }
+  
+    .text-16 {
+      font-size: 16px;
+    }
+  
+    .text-11 {
+      font-size: small;
+    }
+  
+    .text-9 {
+      font-size: 9px;
+    }
+  
+    .text-8 {
+      font-size: 8px;
+    }
+  
+    h1 {
+      font-size: 56px;
+    }
+  
+    h2 {
+      font-size: 48px;
+    }
+  
+    h5 {
+      font-size: 24px;
+    }
+
+    label:not(:last-child) {
+        font-weight: 700;
+        color: #f9a932;
+        margin-top: 12px;
+    }
+  
+    .h5-20 {
+      font-size: 20px;
+    }
+  
+    @media (max-width: 991px) {
+      .h1 {
+        font-size: 46px;
+      }
+    }
+  
+    @media (max-width: 767px) {
+      .h1 {
+        font-size: 32px;
+      }
+    }
+  
+    .block {
+     display: block;
+    }
+    /* ==================== END TEXT STYLE ==================== */
+  
+    /* ==================== CLASS STYLE ==================== */ 
+    .bg-coffee {
+      background:linear-gradient(0deg, rgba(10, 41, 12, 0.7), rgba(10, 41, 12, 0.7)), url("../img/Picture27.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: left;
+    }
+  
+    .bg-gold {
+      background-color: #f6ab2a;
+    }
+  
+    .bg-dark-green {
+      background-color: #374738;
+    }
+  
+    .container-signIn {
+        height: 100vh;
+    }
+
+    .signIn-side {
+        width: 100%;
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        /* background-color: burlywood; */
+    }
+
+    .navbar-nav {
+        display: inline;
+    }
+
+    .back-nav {
+        width: 100%;
+    }
+
+    .back-nav > a {
+        text-decoration: none;
+        margin-left: auto;
+    }
+
+    .back-nav > a:hover {
+        color: #2e2e2d;
+    }
+
+    .nav-signIn > ul li {
+        list-style-type: none;
+        display: inline;
+        margin-right: 80px;
+        padding: 8px;
+    }
+
+    .nav-signIn > ul {
+      /* background-color: coral; */
+      padding: 0;
+    }
+
+    .nav-signIn {
+      width: 60%;
+      display: block;
+      margin: auto;
+      /* background-color: brown; */
+    }
+
+    @media (max-width: 960px) {
+      .nav-signIn {
+        width: 80%;
+      }
+    }
+
+    @media (max-width: 735px) {
+      .nav-signIn {
+        width: 100%;
+      }
+    }
+
+    .nav-signIn > ul li:first-child {
+        border-bottom: 3px solid #4ab44f;
+    }
+
+    .nav-signIn ul li a {
+        text-decoration: none;
+    }
+
+    .nav-link-custom:hover {
+        color: #2e2e2d;
+    }
+
+    .active:hover {
+        color: #888888 !important;
+        cursor: default;
+    }
+
+    .form-wrapper {
+        margin-top: 38px;
+        /* background-color: blueviolet; */
+    }
+
+    .desc-tentang {
+        width: 80%;
+        display: block;
+        margin-top: 20vh;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    @media (max-width: 715px) {
+      .desc-tentang {
+        width: 90%;
+      }
+    }
+
+    @media (max-width: 685px) {
+      .desc-tentang {
+        position: relative;
+        top: 10%;
+        margin-top: 0;
+      }
+    }
+
+    .desc-tentang img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .desc-tentang a {
+        text-decoration: none;
+    }
+
+    .link-none:hover {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .link-none:active {
+      color: inherit;
+    }
+     
+
+    /* ==================== END CLASS STYLE ==================== */
+  
+    /* ==================== ID STYLE ==================== */
+    #tentang {
+        width: 28%;
+        float: left;
+        height: 100%;
+    }
+
+    @media (max-width: 805px) {
+      #tentang {
+        width: 30%;
+      }
+    }
+
+    @media (max-width: 685px) {
+      #tentang {
+        width: 100%;
+        float: none;
+        display: block;
+        margin-bottom: 20px;
+        margin-top: 0 !important;
+      }
+    }
+
+    #tentang img {
+        max-height: 95px;
+    }
+
+    #signIn {
+        overflow: auto;
+        width: 70%;
+    }
+
+    @media (max-width: 685px) {
+      #signIn {
+        width: 100%;
+        padding-bottom: 20px;
+      }
+    }
+    /* ==================== END ID STYLE ==================== */
+  
+    /* ==================== BUTTON HIJAU =================== */
+    .btn-hijau {
+      border: 0px;
+      border-radius: 20px;
+      background-color: #45b54b;
+      color: #ffffff;
+      font-weight: 500;
+      padding: 8px 16px;
+    }
+  
+    .btn-hijau:hover, .btn-hijau:active {
+      background-color: #30a136;
+    }
+  
+    .btn-kuning {
+      border: 0px;
+      border-radius: 20px;
+      background-color: #f6ab2a;
+      color: #ffffff;
+      font-weight: 700;
+      width: 150px;
+      padding: 8px 10px;
+      letter-spacing: 1.5px;
+    }
+
+    .w-200 {
+      width: 250px;
+    }
+  
+    .btn-kuning:hover, .btn-kuning:active {
+       background-color: #e6a029;
+    }
+  
+    /* ==================== END BUTTON HIJAU =================== */
+    
+    /* ================================= CURSOR */
+    .not-allowed {
+      cursor: not-allowed! important;
+    }
+
+    .wait {
+      cursor: wait;
+    }
+    /* ================================= END CURSOR */
+  
+    /* ==================== IMAGE CSS =================== */
+    .img-295 {
+      max-height: 295px;
+    }
+  
+    .img-180 {
+      max-height: 180px;
+    }
+  
+    .img-100 {
+      max-height: 100px;
+    }
+  
+    .img-50 {
+      max-height: 50px;
+    }
+  
+    .img-25 {
+      max-height: 25px;
+    }
+    /* ==================== END IMAGE CSS =================== */
+  
+    /* ==================== MARGIN CSS =================== */
+    .mt-48 {
+      margin-top: 48px;
+    }
+  
+    .mt-64 {
+      margin-top: 64px;
+    }
+  
+    .mt-120 {
+      margin-top: 120px;
+    }
+    /* ==================== END MARGIN CSS =================== */
+  
+    /* ==================== PADDING CSS =================== */
+    .px-48 {
+      padding: 0px 48px;
+    }
+    /* ==================== END PADDING CSS =================== */
+  
+    /* ================ DARI STYLES CSS ========================== */   
+  
+    .search-wrapper {
+      background: #f8f8ff;
+      padding: 30px 10px;
+      text-align: center;
+    }
+  
+    @media (min-width: 600px) {
+      .search-wrapper {
+        padding: 60px;
+      }
+    }
+  
+    .search-wrapper h3 {
+      font-size: 25px;
+      margin-bottom: 25px;
+    }
+  
+    @media (min-width: 600px) {
+      .search-wrapper h3 {
+        margin-bottom: 50px;
+      }
+    }
+  
+    /* ============ FORM STYLE BARU======= */
+    .custom-form .form-group {
+      margin-bottom: 20px;
+    }
+  
+    .custom-form .nice-select {
+      width: 100%;
+      height: 50px;
+      line-height: 50px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 20px;
+      font-size: 14px;
+      color: #999999;
+    }
+  
+    .custom-form .nice-select:after {
+      right: 25px;
+    }
+  
+    .custom-form .form-control {
+      font-size: 14px;
+      color: #999999;
+      padding-left: 20px;
+      border: 1;
+      height: 50px;
+      border-radius: 0;
+    }
+  
+    .custom-form .password {
+      font-size: 14px;
+      color: #999999;
+      padding-left: 20px;
+      border: 0;
+      height: 50px;
+      border-radius: 0;
+    }
+  
+    .custom-form .form-control::placeholder {
+      color: #999999;
+    }
+  
+    .custom-form .form-control:focus {
+      outline: 0;
+      box-shadow: none;
+    }
+  
+    .custom-form .input-group-append .input-group-text {
+      border: 0;
+      padding-right: 20px;
+      border-radius: 0;
+      background: #fff;
+    }
+  
+    .custom-form .input-group-append i, .search-form .input-group-append span {
+      font-size: 14px;
+      color: #999999;
+    }
+  
+    .custom-form::placeholder {
+      color: #999999;
+    }
+    /* ============ END FORM STYLE BARU======= */
+
+    .lay-password-outline {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      border: 1px solid #babab6;
+    }
+  
+    .lay-password-outline > a {
+      margin-right: 8px;
+      text-decoration: none;
+      color: #babab6;
+    }
+  
+    .password-invalid {
+      border-color: #d63a22;
+    }
+  
+    button {
+      cursor: pointer;
+    }
+  
+    button:disabled,
+    button[disabled]{
+      border: 1px solid #999999;
+      background-color: #cccccc;
+      color: #666666;
+    }
+  
+    button[disabled]:hover{
+      border: 1px solid #999999;
+      background-color: #cccccc;
+      color: #666666;
+    }
+  
+    .button-kuning {
+      display: inline-block;
+      background-color: #f9aa32;
+      color: #fff;
+      border-radius: 30px;
+      padding: 8px 25px;
+      text-transform: capitalize;
+      -webkit-transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
+    }
+  
+    @media (min-width: 600px) {
+      .button-kuning {
+        padding: 12px 45px;
+      }
+    }
+  
+    .button-kuning:hover {
+      background-color: #f2a633;
+      color: #fff;
+    }
+  
+    .button {
+      display: inline-block;
+      background-color: #45b54b;
+      color: #fff;
+      border-radius: 30px;
+      padding: 8px 25px;
+      text-transform: capitalize;
+      -webkit-transition: all 0.3s ease 0s;
+      -moz-transition: all 0.3s ease 0s;
+      -o-transition: all 0.3s ease 0s;
+      transition: all 0.3s ease 0s;
+    }
+  
+    @media (min-width: 600px) {
+      .button {
+        padding: 12px 45px;
+      }
+    }
+  
+    .button:hover {
+      background-color: #3c8f40;
+      color: #fff;
+    }
+  
+    /* ================================= CURSOR */
+    .not-allowed {
+      cursor: not-allowed! important;
+    }
+  
+    .wait {
+      cursor: wait;
+    }
+    /* ================================= END CURSOR */
+  
+    .fixed-alert {
+      z-index: 99;
+      position: fixed;
+      right: -100px;
+      top: 155px;
+    }
+  /* ================ END DARI STYLES CSS ========================== */
+  
